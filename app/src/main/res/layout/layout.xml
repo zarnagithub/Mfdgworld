@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10sp"
+    android:paddingStart="10sp"
+    android:paddingLeft="10sp"
+    android:paddingRight="5sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/bbps_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:inputType="textEmailAddress"
+            android:padding="12sp"
+            android:background="@color/white"
+            android:hint="BBPS Service"
+            android:textColor="@color/black"
+            android:textSize="20sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:weightSum="4"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/transfer_limit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:inputType="textEmailAddress"
+            android:drawableRight="@mipmap/ic_launcher_bbps_round"
+            android:padding="12sp"
+            android:background="@color/white"
+            android:hint="Set Transfer Limit"
+            android:textColor="@color/orange"
+            android:textSize="15sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:padding="10dp"
+                    android:id="@+id/recharge"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:drawableTop="@drawable/ic_baseline_recharge"
+                    android:fontFamily="monospace"
+                    android:text="Recharge"
+                    android:textAlignment="center"
+                    android:textSize="14sp"></Button>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/electricity"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:text="Electricity"
+                    android:background="@color/white"
+                    android:drawableTop="@drawable/ic_baseline_electricity"
+                    android:textSize="14sp"
+                    android:fontFamily="monospace"
+                    android:textAlignment="center"
+                    >
+                </Button>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/water"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Water"
+                    android:padding="10dp"
+                    android:background="@color/white"
+                    android:drawableTop="@drawable/ic_baseline_water"
+                    android:textSize="14sp"
+                    android:fontFamily="monospace"
+                    android:textAlignment="center"
+                    >
+                </Button>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/rental"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Rental"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:drawableTop="@drawable/ic_baseline_rental"
+                    android:textSize="14sp"
+                    android:fontFamily="monospace"
+                    android:textAlignment="center"
+                    >
+                </Button>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/housing_society"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Housing Society"
+                    android:padding="10dp"
+                    android:background="@color/white"
+                    android:drawableTop="@drawable/ic_baseline_house"
+                    android:textSize="14sp"
+                    android:fontFamily="monospace"
+                    android:textAlignment="center"
+                    >
+                </Button>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/Gas"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Gas"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:drawableTop="@drawable/ic_baseline_gas"
+                    android:textSize="14sp"
+                    android:fontFamily="monospace"
+                    android:textAlignment="center"
+                    >
+                </Button>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/clubs_n_association"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Clubs and Associations"
+                    android:padding="10dp"
+                    android:background="@color/white"
+                    android:drawableTop="@drawable/ic_baseline_design_services_24"
+                    android:textSize="14sp"
+                    android:fontFamily="monospace"
+                    android:textAlignment="center"
+                    >
+                </Button>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/landline"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Landline Postpaid"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:drawableTop="@drawable/ic_baseline_menu_book_24"
+                    android:textSize="14sp"
+                    android:fontFamily="monospace"
+                    android:textAlignment="center"
+                    >
+                </Button>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/mobile_postpaid"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Mobile Postpaid"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:drawableTop="@drawable/ic_baseline_contact_phone_24"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace"
+                    android:textAlignment="center"
+                    >
+                </Button>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/education"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Education"
+                android:background="@color/white"
+                android:padding="10dp"
+                android:drawableTop="@drawable/ic_baseline_people_alt_24"
+                android:textSize="14sp"
+                android:fontFamily="monospace"
+                android:textAlignment="center"
+                >
+            </Button>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/jobs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="jobs"
+                android:background="@color/white"
+                android:drawableTop="@drawable/ic_baseline_boy_24"
+                android:textSize="14sp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:textAlignment="center"
+                >
+            </Button>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/dth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:drawableTop="@drawable/ic_baseline_dth"
+                android:fontFamily="monospace"
+                android:text="DTH"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textSize="14sp"></Button>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/bills"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Bills"
+                    android:padding="10dp"
+                    android:background="@color/white"
+                    android:drawableTop="@drawable/ic_baseline_bills"
+                    android:textSize="14sp"
+                    android:fontFamily="monospace"
+                    android:textAlignment="center"
+                    >
+                </Button>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/credit_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Credit Card"
+                    android:padding="10dp"
+                    android:background="@color/white"
+                    android:drawableTop="@drawable/ic_baseline_credit_card_24"
+                    android:textSize="14sp"
+                    android:fontFamily="monospace"
+                    android:textAlignment="center"
+                    >
+                </Button>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/municipal_service"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Municipal Services"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:drawableTop="@drawable/ic_baseline_engineering_24"
+                    android:textSize="14sp"
+                    android:fontFamily="monospace"
+                    android:textAlignment="center"
+                    >
+                </Button>
+            </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="5dp"
+        android:paddingRight="10sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="2">
+            <Button
+                android:id="@+id/complaint"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5sp"
+                android:hint="Complaint"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:textColor="@color/orange"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="2">
+
+            <Button
+                android:id="@+id/payment_history"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5sp"
+                android:hint="Payment History"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp">
+
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:inputType="textEmailAddress"
+        android:drawableStart="@drawable/ic_baseline_search_24"
+        android:padding="12sp"
+        android:background="@color/white"
+        android:hint="search"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+
+    </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/b2b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_baseline_business_24"
+                android:fontFamily="monospace"
+                android:text="b2b"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/doctor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:drawableTop="@drawable/ic_baseline_health_and_safety_24"
+                android:fontFamily="monospace"
+                android:text="doctors"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/travel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_baseline_travel_explore_24"
+                android:fontFamily="monospace"
+                android:text="travel"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/beauty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_baseline_face_2_24"
+                android:fontFamily="monospace"
+                android:text="beauty"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+            <TextView
+                android:id="@+id/designers"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Interior designer"
+                android:drawableTop="@drawable/ic_baseline_design_services_24"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:textAlignment="center"
+                >
+            </TextView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+            <TextView
+                android:id="@+id/education"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="education"
+                android:drawableTop="@drawable/ic_baseline_menu_book_24"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:textAlignment="center"
+                >
+            </TextView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+            <TextView
+                android:id="@+id/consultants"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="consultants"
+                android:drawableTop="@drawable/ic_baseline_contact_phone_24"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:textAlignment="center"
+>
+            </TextView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                android:id="@+id/rent_hire"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="rent and hire"
+                android:drawableTop="@drawable/ic_baseline_add_home_work_24"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:textAlignment="center"
+                >
+            </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/wedding"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Wedding requisits"
+                android:drawableTop="@drawable/ic_baseline_people_alt_24"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:textAlignment="center"
+              >
+            </TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/jobs"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="jobs"
+                android:drawableTop="@drawable/ic_baseline_boy_24"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:textAlignment="center"
+                >
+            </TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/repairs"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="repairs and services"
+                android:drawableTop="@drawable/ic_baseline_miscellaneous_services_24"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:textAlignment="center"
+                >
+            </TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/contractors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contractors"
+                android:drawableTop="@drawable/ic_baseline_engineering_24"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:textAlignment="center"
+               >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
