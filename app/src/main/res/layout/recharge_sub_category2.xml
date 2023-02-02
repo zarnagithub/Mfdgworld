@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/recharge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@color/white"
+            android:hint="Recharge"
+            android:padding="12sp"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="40dp"
+            android:padding="12sp"
+            android:background="@color/white"
+            android:hint="Mobile Number"
+            android:textColor="@color/black"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:padding="12sp"
+            android:inputType="text"
+            android:background="@color/white"
+            android:hint="mobile Number"
+            android:textColor="@color/black"
+            android:textSize="20dp">
+
+        </EditText>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="40dp"
+            android:inputType="number"
+            android:padding="12sp"
+            android:background="@color/white"
+            android:hint="Amount"
+            android:textColor="@color/black"
+            android:textSize="20sp">
+
+        </EditText>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="40dp"
+            android:padding="12sp"
+            android:background="@color/white"
+            android:hint="Account"
+            android:textColor="@color/black"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/account2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:padding="12sp"
+            android:inputType="text"
+            android:drawableRight="@drawable/ic_baseline_arrow_drop_down_24"
+            android:background="@color/white"
+            android:hint="Account"
+            android:textColor="@color/black"
+            android:textSize="20dp">
+
+        </EditText>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/remark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="40dp"
+            android:padding="12sp"
+            android:background="@color/white"
+            android:hint="Select Remarks"
+            android:textColor="@color/black"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/remark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:padding="12sp"
+            android:inputType="text"
+            android:drawableRight="@drawable/ic_baseline_arrow_drop_down_24"
+            android:background="@color/white"
+            android:hint="Remarks"
+            android:textColor="@color/black"
+            android:textSize="20dp">
+
+        </EditText>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/enter_remark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="40dp"
+            android:padding="12sp"
+            android:background="@color/white"
+            android:hint="Select Remarks"
+            android:textColor="@color/black"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/enter_remark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:padding="12sp"
+            android:inputType="text"
+            android:drawableRight="@drawable/ic_baseline_arrow_drop_down_24"
+            android:background="@color/white"
+            android:hint="Remarks"
+            android:textColor="@color/black"
+            android:textSize="20dp">
+
+        </EditText>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/recharge_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5sp"
+            android:hint="Recharge"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
