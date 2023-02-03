@@ -27,7 +27,7 @@
             android:background="@color/white"
             android:hint="Login"
             android:textColor="@color/black"
-            android:textSize="30sp">
+            android:textSize="35sp">
 
         </TextView>
 
@@ -45,13 +45,15 @@
             android:id="@+id/user_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:layout_centerInParent="true"
-            android:padding="12sp"
-            android:inputType="text"
+            android:drawableLeft="@drawable/ic_baseline_user_single_person"
+            android:drawablePadding="10dp"
             android:background="@color/white"
             android:hint="User Name"
+            android:inputType="text"
+            android:padding="12sp"
             android:textColor="@color/black"
             android:textSize="20dp">
 
@@ -72,6 +74,8 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/ic_baseline_password_black"
+            android:drawablePadding="10dp"
             android:padding="12sp"
             android:inputType="text"
             android:background="@color/white"
@@ -98,7 +102,6 @@
             android:layout_centerInParent="true"
             android:padding="12sp"
             android:inputType="text"
-            android:background="@color/white"
             android:hint="forgot pasword?"
             android:textColor="@color/black"
             android:textSize="17dp">
@@ -141,14 +144,14 @@
             android:id="@+id/question"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:layout_centerInParent="true"
-            android:padding="12sp"
-            android:inputType="text"
-            android:layout_weight="1"
+            android:layout_weight="1.10"
             android:background="@color/white"
             android:hint="Not a member?"
+            android:inputType="text"
+            android:padding="12sp"
             android:textColor="@color/black"
             android:textSize="17dp">
 
@@ -161,6 +164,7 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:layout_centerInParent="true"
+            android:paddingLeft="10dp"
             android:padding="12sp"
             android:inputType="text"
             android:layout_weight="1"
