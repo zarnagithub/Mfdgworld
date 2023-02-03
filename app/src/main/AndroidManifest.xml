@@ -30,6 +30,16 @@
 
         <activity android:name=".SignupActivity" />
 
+        <activity android:name=".ElectricitySubCategoryActivity" />
+
+        <activity android:name=".LayoutActivity" />
+
+        <activity android:name=".RechargeSubCategoryActivity" />
+
+        <activity android:name=".RechargeSubCategory2Activity" />
+
+        <activity android:name=".ElectricitySubclass2Activity" />
+
 
     </application>
 

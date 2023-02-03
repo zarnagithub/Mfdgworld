@@ -9,19 +9,18 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import org.jetbrains.annotations.Nullable;
 
-public class ElectricitySubclass2Activity extends AppCompatActivity{
+public class RechargeSubCategory2Activity extends AppCompatActivity{
 
 
-
-    EditText fCustomername,fAmount;
-    Button fValidate;
+    EditText fNumber2;
+    Button fRecharge;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.electricity_sub_category2);
-        fCustomername=findViewById(R.id.name);
-        fAmount=findViewById(R.id.amount);
-        fValidate=findViewById(R.id.validate);
+        setContentView(R.layout.recharge_sub_category2);
+        fNumber2=findViewById(R.id.number2);
+        fRecharge=findViewById(R.id.recharge_btn);
+
     }
 }

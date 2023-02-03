@@ -82,13 +82,13 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:padding="10dp"
                     android:id="@+id/recharge"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/white"
                     android:drawableTop="@drawable/ic_baseline_recharge"
                     android:fontFamily="monospace"
+                    android:padding="10dp"
                     android:text="Recharge"
                     android:textAlignment="center"
                     android:textSize="14sp"></Button>
@@ -101,19 +101,18 @@
                 android:layout_weight="1"
                 android:layout_marginRight="20dp"
                 android:orientation="horizontal">
+
                 <Button
                     android:id="@+id/electricity"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:padding="10dp"
-                    android:text="Electricity"
                     android:background="@color/white"
                     android:drawableTop="@drawable/ic_baseline_electricity"
-                    android:textSize="14sp"
                     android:fontFamily="monospace"
+                    android:padding="10dp"
+                    android:text="Electricity"
                     android:textAlignment="center"
-                    >
-                </Button>
+                    android:textSize="14sp"></Button>
             </LinearLayout>
 
 
@@ -162,19 +161,18 @@
                 android:layout_weight="1"
                 android:layout_marginRight="20dp"
                 android:orientation="horizontal">
+
                 <Button
                     android:id="@+id/rental"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Rental"
                     android:background="@color/white"
-                    android:padding="10dp"
                     android:drawableTop="@drawable/ic_baseline_rental"
-                    android:textSize="14sp"
                     android:fontFamily="monospace"
+                    android:padding="10dp"
+                    android:text="Rental"
                     android:textAlignment="center"
-                    >
-                </Button>
+                    android:textSize="14sp"></Button>
             </LinearLayout>
 
 
@@ -207,7 +205,7 @@
                 android:layout_marginRight="20dp"
                 android:orientation="horizontal">
                 <Button
-                    android:id="@+id/Gas"
+                    android:id="@+id/gas"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Gas"
@@ -289,20 +287,19 @@
                 android:layout_weight="1"
                 android:layout_marginRight="20dp"
                 android:orientation="horizontal">
+
                 <Button
                     android:id="@+id/mobile_postpaid"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Mobile Postpaid"
                     android:background="@color/white"
-                    android:padding="10dp"
                     android:drawableTop="@drawable/ic_baseline_contact_phone_24"
-                    android:textSize="14sp"
-                    android:textStyle="bold"
                     android:fontFamily="monospace"
+                    android:padding="10dp"
+                    android:text="Mobile Postpaid"
                     android:textAlignment="center"
-                    >
-                </Button>
+                    android:textSize="14sp"
+                    android:textStyle="bold"></Button>
             </LinearLayout>
 
         </LinearLayout>
@@ -472,6 +469,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_weight="2">
+
             <Button
                 android:id="@+id/complaint"
                 android:layout_width="match_parent"
@@ -480,8 +478,8 @@
                 android:layout_centerVertical="true"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="5sp"
-                android:hint="Complaint"
                 android:background="@color/white"
+                android:hint="Complaint"
                 android:textAlignment="center"
                 android:textColor="@color/orange"
                 android:textSize="20sp" />
